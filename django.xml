@@ -1,0 +1,8 @@
+<uwsgi>
+     <socket>127.0.0.1:8000</socket>
+	 <master>true</master>
+	 <chdir>/home/daniel/myblog</chdir>  
+	 <pythonpath>..</pythonpath>
+	<wsgi-file>django_wsgi.py</wsgi-file> 
+	 <enable-threads>true</enable-threads>
+ </uwsgi>
